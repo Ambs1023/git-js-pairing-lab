@@ -36,3 +36,12 @@ function multiply(a, b){
     return a * b
 }
 console.log(multiply(5, 6))
+
+function add(a,b){
+    if(a === b) {
+        return (a + b) * 3
+    } else {
+        return a + b
+    }
+}
+console.log(add(9,9))
