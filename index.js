@@ -69,3 +69,7 @@ function betweenTwentyAndFourty(num){
 }
 console.log(betweenTwentyAndFourty(3))
 
+function largest(a, b, c) {
+    return Math.max(a, b, c)
+}
+console.log(largest(10,300,90))
