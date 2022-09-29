@@ -102,3 +102,15 @@ function absoluteNineteen(num){
     
 }
 console.log(absoluteNineteen(20))
+
+function switchLetters(a) 
+  {
+  if (a.length <= 1)
+  {
+    return a;
+  } else{
+  mid_char = a.substring(1, a.length - 1);
+  return (a.charAt(a.length - 1)) + mid_char + a.charAt(0);
+}
+  }
+console.log(switchLetters("Emma"))
