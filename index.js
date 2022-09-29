@@ -54,3 +54,8 @@ function isNegative(a){
     }
 }
 console.log(isNegative(8))
+
+function triangleArea(h, b){
+    return (b*h)/2
+}
+console.log(triangleArea(7,5))
