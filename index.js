@@ -74,3 +74,11 @@ function largest(a, b, c) {
 }
 console.log(largest(10,300,90))
 
+function printTime(){
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+ console.log(time)   
+}
+
+printTime()
