@@ -92,3 +92,13 @@ function getExtention(filename) {
     return filename.split(".").pop();
 }
 console.log(getExtention("README.md"))
+
+function absoluteNineteen(num){
+    if (num > 19){
+        return Math.abs(num - 19) * 3
+    } else {
+    return Math.abs(num - 19)
+    }
+    
+}
+console.log(absoluteNineteen(20))
