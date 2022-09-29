@@ -45,3 +45,12 @@ function add(a,b){
     }
 }
 console.log(add(9,9))
+
+function isNegative(a){
+    if (a < 0 ){
+        return true
+    } else { 
+        return false 
+    }
+}
+console.log(isNegative(8))
